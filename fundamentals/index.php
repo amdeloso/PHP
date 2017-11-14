@@ -1,3 +1,0 @@
-<?php
-/* Annie Rose Deloso */
-?>
