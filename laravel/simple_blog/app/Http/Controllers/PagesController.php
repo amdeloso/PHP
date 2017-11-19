@@ -23,4 +23,9 @@ class PagesController extends Controller
         );
         return view('pages.project')->with($data);
     }
+
+     public function blog(){
+         $title = "Blog Page";
+         return view('pages.blog')->with('title',$title);
+    }
 }
