@@ -11,7 +11,13 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">  
+
+   {{--     <!-- Bootstrap core CSS -->
+    <link href="https://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+  --}}
+   {{--   <!-- Custom styles for this template -->
+    <link href="album.css" rel="stylesheet">    --}}
 </head>
 <body>
     <div id="app">

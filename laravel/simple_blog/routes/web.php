@@ -15,6 +15,7 @@ Route::get('/', 'PagesController@index');
 Route::get('/about', 'PagesController@about');
 Route::get('/project', 'PagesController@project');
 Route::get('/blog', 'PagesController@blog');
+Route::get('/admin', 'PagesController@admin');
 
 /* Route::get('/users/{id}/{name}', function ($id, $name) {
     return 'This is user '.$name.' with an id of '.$id;
