@@ -33,4 +33,16 @@ class PagesController extends Controller
          $title = "Admin Page";
          return view('pages.admin')->with('title',$title);
     }
+
+     public function contact(){
+         $title = "Contact Page";
+         return view('pages.contact')->with('title',$title);
+    }
+
+    public function messages(){
+         $title = "Messages Page";
+         return view('pages.messages')->with('title',$title);
+    }
 }
+}
+
