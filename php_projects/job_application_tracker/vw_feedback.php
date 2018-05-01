@@ -3,7 +3,7 @@
     require_once('lib/pdo_db.php');
     require_once('models/JobsApplied.php');
 
-    //Instantiate JobsApplied
+    //Instantiate JobsFeedback
     $jobsapplied = new JobsApplied();
 
     //Get 

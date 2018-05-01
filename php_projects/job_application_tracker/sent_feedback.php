@@ -12,7 +12,7 @@ $feedback = $POST['feedback'];
 
 /* start to insert to DB  */
 
-/* ########## CUSTOMER ################ */
+/* ########## FEEDBACK ################ */
 $jobsFeedbackData = [
     'id_applied' => $id_applied,
     'status' => $status,
@@ -20,7 +20,7 @@ $jobsFeedbackData = [
     
 ];
 
-//Instantiate Jobsapplied object & must declare the the JobsApplied.php model at the top
+//Instantiate JobsFeedback object & must declare the the JobsFeedback.php model at the top
 $jobsfeedback = new JobdFeedback();
 
 //Call Add function

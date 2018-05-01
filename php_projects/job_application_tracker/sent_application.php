@@ -14,7 +14,7 @@ $link = $POST['link'];
 
 /* start to insert to DB  */
 
-/* ########## CUSTOMER ################ */
+/* ########## JOBS APPLIED ################ */
 $jobsAppliedData = [
     'id_profile' => 1,
     'job_title' => $job_title,
@@ -26,7 +26,7 @@ $jobsAppliedData = [
     
 ];
 
-//Instantiate Jobsapplied object & must declare the the Customer.php model at the top
+//Instantiate Jobsapplied object & must declare the the JobsApplied.php model at the top
 $jobsapplied = new JobsApplied();
 
 //Call Add function
